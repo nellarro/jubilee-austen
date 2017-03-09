@@ -111,3 +111,9 @@ body {
   font-weight: 700;
   font-size: 28px;
 }
+
+#contact ul { list-style: none; }
+
+#contact ul li { display: inline-block; }
+
+#contact ul img { padding-right: 48px;}
