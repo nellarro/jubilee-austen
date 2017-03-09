@@ -8,6 +8,51 @@ body {
   height: 600px;
 }
 
+/***** HEADER *****/
+
+header {
+  height: 800px;
+  background: url('../img/hero.png');
+  background-size: cover;
+}
+
+header h1 {
+  padding: 50px 0;
+  font-family: 'Lora', sans-serif;
+  font-size: 30px;
+  color: #bbc085;
+}
+
+header h2 {
+  width: 1000px;
+  clear: both;
+  font-family: 'Lora', sans-serif;
+  font-size: 72px;
+  line-height: 80px;
+  color: #9b9b9b;
+}
+
+header h2 span {
+  color: #2b2b2b;
+}
+
+nav {
+  float: right;
+  padding: 75px 40px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  color: #828282;
+  padding-left: 80px;
+}
+
 /***** GRID *****/
 
 .full-width {
